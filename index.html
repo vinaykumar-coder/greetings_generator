@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Greetings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Generate your Greetings</h2>
+        <!-- input for name -->
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" placeholder="Your name here">
+
+        <!-- Dropdown for Time -->
+        <label for="timeSelect">Choose a time of day:</label>
+        <select id="timeSelect">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select>
+
+        <!-- button trigger greeting -->
+        <button id="generateBtn">Generate Greeting</button>
+
+        <!-- Output area -->
+        <p id="greetingOutput"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
